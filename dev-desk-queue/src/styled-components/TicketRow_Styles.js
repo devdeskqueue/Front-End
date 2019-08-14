@@ -94,6 +94,8 @@ export const StyledAssignButton = styled.button`
 
   border: 1px solid black;
 
+  border-radius: 3px;
+
   height: 25px;
 
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);

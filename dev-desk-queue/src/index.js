@@ -1,7 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import { BrowserRouter as Router } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
+
+import 'normalize.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import theme from './styled-components/theme';
 import GlobalStyle from './styled-components/GlobalStyles';
 import App from './App';
